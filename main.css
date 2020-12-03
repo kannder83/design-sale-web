@@ -17,10 +17,71 @@
 .box-selling {
   width: 250px;
   height: 200px;
-  border: 1px solid red;
+  border: 1px solid rgb(221, 221, 221);
+  background: linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.9) 0%,
+    rgba(246, 246, 246, 0.9) 50%,
+    rgba(255, 255, 255, 0.9) 100%
+  );
   border-radius: 20px;
   padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-shadow: 5px 6px 15px 4px rgba(0, 0, 0, 0.36);
+}
+
+.box-selling-title h2 {
+  color: rgb(53, 53, 133);
+}
+
+.box-selling-title h3 {
+  color: rgb(180, 180, 180);
+}
+
+.box-selling-address {
+  display: flex;
+  align-items: center;
+}
+
+.box-selling-address p {
+  color: rgb(53, 53, 133);
+  margin: 5px;
+}
+
+.box-selling-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-selling-list li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.box-individual-icon {
+  text-decoration: none;
+  font-size: 35px;
+  border-radius: 10px;
+  margin: 10px;
+  color: rgb(23, 23, 82);
+  /* border: 1px red solid; */
+  padding: 6px;
+  background-color: rgb(180, 180, 180);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li .box-selling-btn {
+  padding: 14px 20px;
+  margin: 10px;
+  background: rgb(53, 53, 133);
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
 }
